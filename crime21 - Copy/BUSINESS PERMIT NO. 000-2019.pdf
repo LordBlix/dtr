@@ -1,0 +1,28 @@
+[DisabledHintIDs]
+HintId_1=1
+
+[Options]
+localefile=attcheckin.en
+Temp-Supervisor_RANGE_User=39
+Temp-Supervisor_RANGE_Dept=1
+Temp-Supervisor_RANGE_D1=2018-04-15 00:00:00
+Temp-Supervisor_RANGE_D2=2018-04-30 23:59:00
+MainFormLeft=0
+MainFormTop=3
+MainFormWidth=1365
+MainFormHeight=725
+LeftMenu=194
+RightInfo=300
+MachinesViewHeight=297
+ViewStyle=3
+DisplayStatus=0
+DisplayWorkCode=0
+SimpleCalc=0
+Displaynull=1
+
+[TfAttCalc]
+pnlRecOP_Width=166
+pnlAttAbnormite_Width=140
+pnlAudit_Width=166
+pnlCalc_Width=132
+

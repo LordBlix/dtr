@@ -1,0 +1,56 @@
+$html = $html. '<table width="100%">
+<tr>
+<td width="50%" style="text-align:left: 140; font-family:arial; font-size: 10px;">
+Civil Service Form No. 48
+<td width="50%" style="text-align:left: 140; font-family:arial; font-size: 10px;">
+Civil Service Form No. 48
+<tr>
+<td  style="padding-left: 80px; font-family:arial; font-weight:bold; font-size: 16px">DAILY TIME RECORD 
+<td  style="padding-left: 80px; font-family:arial; font-weight:bold; font-size: 16px">DAILY TIME RECORD 
+<tr height=10> 
+<td style="padding-left: 120px; font-family:arial; font-size=19px">-----o0o-----
+<td style="padding-left: 120px; font-family:arial; font-size=19px">-----o0o-----
+<tr>
+<td style="padding-left: 120px;  font-family:arial; font-size: 12px;">'.$name.'
+<td style="padding-left: 120px;  font-family:arial; font-size: 12px;">'.$name.'
+<tr>
+<td width="50%" style="padding left: 120px; font-size=3px">'.str_repeat("&nbsp;",32).'(Name)
+<td width="50%" style="padding left: 120px; font-size=3px">'.str_repeat("&nbsp;",32).'(Name)
+<tr>
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;"> For the month of ______<u><b>'.$date.' '.$me.' - '.$me1.', '.$me2.'</b></u>_____<br> 
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;"> For the month of ______<u><b>'.$date.' '.$me.' - '.$me1.', '.$me2.'</b></u>_____<br>
+<tr>
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;">Official hours for arrival<b>'.str_repeat("&nbsp;", 10).'</b> {Regular days__________<br>
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;">Official hours for arrival<b>'.str_repeat("&nbsp;", 10).'</b> {Regular days__________<br>
+<tr>
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;">'.str_repeat("&nbsp;", 13).'and departure '.str_repeat("&nbsp;", 25).' {Saturdays__________
+<td style="padding-left: 10px; font-family:arial; font-size: 12px;">'.str_repeat("&nbsp;", 13).'and departure '.str_repeat("&nbsp;", 25).' {Saturdays__________
+</table>';
+
+$html = $html .'
+<table style="border-collapse" width="100%">
+<tr>
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; border-bottom: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" rowspan=2>Day
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" colspan=2>A.M.
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" colspan=2>P.M.
+<td style="border-right: 0.1mm solid black; border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" colspan=2>Under-<br>time
+<td width="4%">
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; border-bottom: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" rowspan=2>Day
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="15%" colspan=2>A.M.
+<td style="border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="15%" colspan=2>P.M
+<td style="border-right: 0.1mm solid black; border-top: 0.1mm solid black; border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" colspan=2>Under-<br>time
+<tr>
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Arrival
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" >Depar-<br>ture
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Arrival
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" >Depar-<br>ture
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Hours
+<td style="border-bottom: 0.1mm solid black;  border-right: 0.1mm solid black; border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Min-<br>utes
+<td width="4%">
+<td style="border-bottom: 0.1mm solid black; border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Arrival
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="10%" >Depar-<br>ture
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-size: 12px;" width="5%" >Arrival
+<td style="border-bottom: 0.1mm solid black;  -left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-family:arial; font-size: 12px;" width="10%" >Depar-<br>ture
+<td style="border-bottom: 0.1mm solid black;  border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-family:arial; font-size: 12px;" width="5%" >Hours
+<td style="border-bottom: 0.1mm solid black;  border-right: 0.1mm solid black; border-left: 0.1mm solid black; border-top: 0.1mm solid black; font-family:arial; font-family:arial; font-size: 12px;" width="5%" >Min-<br>utes
+</table>';
