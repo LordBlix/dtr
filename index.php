@@ -32,8 +32,7 @@ if(isset($_POST['go'])){
  list($title)=mysql_fetch_array($res5);
 
 
-$query1="SELECT * FROM userinfo_copy WHERE title=$title 
-AND id NOT IN(SELECT dtr FROM dtrme WHERE Date1='$Date1' AND Date2='$Date2' and status=1) ORDER BY NAME ASC;";
+$query1="SELECT * FROM dep_head ;";
 
 $res1=mysql_query($query1);
 
